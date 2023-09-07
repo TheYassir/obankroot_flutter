@@ -4,7 +4,7 @@ Bank App project with Flutter (Bloc Architecture, Package Go_Router for routing)
 
 ## Link Record of the project
 
-[Click here](Obankroot_recording.mp4)
+[Click here and upload the file](Obankroot_recording.mp4)
 
 ## Backend
 
