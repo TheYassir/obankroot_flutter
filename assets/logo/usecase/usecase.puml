@@ -1,0 +1,35 @@
+@startuml OBankroot
+actor "Client" as client
+rectangle OBankroot {
+  usecase "Consult the welcome page" as UC1
+  usecase "Consult your accounts list" as UC2
+  usecase "Consult your account transactions" as UC3
+  usecase "Consult your recipients" as UC4
+  usecase "Add a recipient" as UC5
+  usecase "Remove a recipient" as UC6
+  usecase "Make a transfer" as UC7
+  usecase "Genreate your account details in PDF" as UC8
+  usecase "Toggle dark and light mode" as UC9
+  usecase "Change language" as UC10
+  usecase "Log out" as UC11
+}
+
+
+usecase "Log in" as UC12
+
+
+client -- UC1
+client -- UC2
+client -- UC3
+client -- UC4
+client -- UC5
+client -- UC6
+client -- UC7
+client -- UC8
+client -- UC9
+client -- UC10
+client -- UC11
+
+OBankroot <.. UC12 : include
+
+@enduml
